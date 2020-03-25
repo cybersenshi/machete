@@ -11,7 +11,6 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
-
         <p>External Resources</p>
           <a href="https://coronavirusarmy.org/" >
             coronavirusarmy.org
