@@ -1,6 +1,6 @@
 ---
-templateKey: about-page
-path: /about
+templateKey: available-supplies
+path: /available-supplies
 title: Request Supplies
 ---
  
