@@ -1,5 +1,6 @@
 ---
 templateKey: available-supplies
 path: /available-supplies
-title: Available Supplies
+title: Request Supplies
 ---
+ 

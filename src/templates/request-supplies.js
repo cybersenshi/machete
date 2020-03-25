@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AvailableSuppliesTemplate = ({ title, content, contentComponent }) => {
+export const RequestSuppliesTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -17,7 +17,7 @@ export const AvailableSuppliesTemplate = ({ title, content, contentComponent }) 
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <iframe className="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr7lNoA2Cdau1wNN?backgroundColor=yellow&layout=card&viewControls=on" width="100%" height="1867" className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"></iframe>
+              <iframe className="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr5nBY7UkLhrqj4R?backgroundColor=yellow" width="100%" height="1867" className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"></iframe>
             </div>
           </div>
         </div>
@@ -26,18 +26,18 @@ export const AvailableSuppliesTemplate = ({ title, content, contentComponent }) 
   )
 }
 
-AvailableSuppliesTemplate.propTypes = {
+RequestSuppliesTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AvailableSupplies = ({ data }) => {
+const RequestSupplies = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AvailableSuppliesTemplate
+      <RequestSuppliesTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -46,14 +46,14 @@ const AvailableSupplies = ({ data }) => {
   )
 }
 
-AvailableSupplies.propTypes = {
+RequestSupplies.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AvailableSupplies
+export default RequestSupplies
 
 export const aboutPageQuery = graphql`
-  query AvailableSupplies($id: String!) {
+  query RequestSupplies($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
