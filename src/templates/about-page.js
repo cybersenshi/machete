@@ -17,8 +17,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <!-- This is hacky and sucks. Fix with future Airtable integration. -->
-              <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr5nBY7UkLhrqj4R?backgroundColor=yellow" width="100%" height="1867" class="request-supplies__StyledFrame-ybe9hf-0 diKYNp"></iframe>
+              <iframe className="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr5nBY7UkLhrqj4R?backgroundColor=yellow" width="100%" height="1867" className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"></iframe>
             </div>
           </div>
         </div>
