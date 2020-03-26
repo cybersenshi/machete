@@ -54,7 +54,7 @@ NewsPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const NewsPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -85,7 +85,7 @@ NewsPost.propTypes = {
   }),
 }
 
-export default BlogPost
+export default NewsPost
 
 export const pageQuery = graphql`
   query NewsPostByID($id: String!) {
