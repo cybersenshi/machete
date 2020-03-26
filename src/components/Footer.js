@@ -15,19 +15,19 @@ const Footer = class extends React.Component {
           <a href="https://coronavirusarmy.org/" >
             coronavirusarmy.org
           </a>
-            {"|"}
+            {" | "}
           <a href="https://www.seattlemakers.org/">
             seattlemakers.org
           </a>
-            {"|"}
+            {" | "}
           <a href="https://www.endcoronavirus.org/">
             endcoronavirus.org
           </a>
-            {"|"}
+            {" | "}
           <a href="https://findthemasks.com/">
             findthemasks.com
           </a>
-            {"|"}
+            {" | "}
           <a href="https://donatetohospitals.com/">
             donatetohospitals.com
           </a>
