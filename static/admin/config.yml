@@ -51,3 +51,24 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/patterns/index.md"
+        label: "Patterns"
+        name: "patterns"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/groups-directory/index.md"
+        label: "Groups Directory"
+        name: "groups-directory"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/volunteer/index.md"
+        label: "Volunteer"
+        name: "volunteer"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
