@@ -32,7 +32,7 @@ VolunteerTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const RequestSupplies = ({ data }) => {
+const Volunteer = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
