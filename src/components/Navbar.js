@@ -64,10 +64,10 @@ const Navbar = class extends React.Component {
                 Request Supplies
               </Link>
               <Link className="navbar-item" to="/patterns">
-                Contact
+                Patterns
               </Link>
               <Link className="navbar-item" to="/groups-directory">
-                Form Examples
+                Groups Directory
               </Link>
               <Link className="navbar-item" to="/volunteer">
                 Volunteer
